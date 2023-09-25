@@ -1,0 +1,126 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav_left {
+    gap: 8px;
+    display: flex;
+    justify-content: left;
+}
+
+.header__nav_left--circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.header__nav_left--button {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+}
+
+.header__nav_right {
+    gap: 3px;
+    display: flex;
+    justify-content: right;
+}
+
+.header__nav_right--button {
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__circle {
+    min-width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 60px;
+}
+
+.mail__article {
+    text-align: left;
+}
+
+.mail__article__text {
+    max-width: 500px;
+}
+
+.footer {
+    display: flex;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+  
+    max-width: 1000px;
+    margin: 5rem auto;
+  }
+  
+  .footer__section_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
+  
+  }
+  
+  .footer__section_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 0;
+  }
+  
+  .footer__video{
+    width: 15rem;
+    height: 8rem;
+  
+    background-color: black;
+  }
+  
+  .footer__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  
+  .footer__text{
+    max-width: 40rem;
+    text-wrap: balance;
+  }
+  
+  .footer__comments{
+    display: flex;
+    margin-bottom: 3rem;
+  }
+  
+  .footer__comments--avatar{
+    min-width: 3rem;
+    max-height: 3rem;
+    margin: 0 1rem;
+    background-color: black;
+  }
+  
+  .footer__comments--text{
+    text-wrap: balance;
+  }
